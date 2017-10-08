@@ -9,8 +9,8 @@ from flask_ask import Ask, request, session, question, statement, context, audio
 
 #twilo api to notify friend
 from twilio.rest import Client
-twil_sid = "AC63e4c27ab01477e19d5f28b881f81b0d"
-twil_tok = "888d4650e71395f61b8ac7c1f2e76963"
+twil_sid = "XX"
+twil_tok = "XX"
 
 client = Client(twil_sid, twil_tok)
 
@@ -51,9 +51,9 @@ def no():
 @ask.intent('TheEnding')
 def human_contact(contact):
     if (contact == 'mom'):
-        client.api.account.messages.create(to= "+13109930763",from_="+13213604467 ",body="You need to talk to Victoria")
+        client.api.account.messages.create(to= "XX",from_="+13213604467 ",body="You need to talk to Victoria")
     elif (contact == 'my best friend'):
-        client.api.account.messages.create(to= "+13868640599",from_="+13213604467 ",body="You need to talk to Victoria")
+        client.api.account.messages.create(to= "XX",from_="+13213604467 ",body="You need to talk to Victoria")
     return statement("Got it.")
 
 
