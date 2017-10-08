@@ -1,0 +1,13 @@
+SadIntent im sad
+SadIntent im down
+SadIntent i dont feel good
+
+QuoteFailed no
+QuoteFailed no it did not
+QuoteFailed no it didn't
+
+TalkIntent sing
+
+SuccessIntent yes
+SuccessIntent yup
+SuccessIntent yeah

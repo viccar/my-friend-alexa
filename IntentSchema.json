@@ -1,0 +1,19 @@
+{
+    "intents": [
+      {
+        "intent": "SadIntent"
+      },
+      {
+        "intent": "QuoteFailed"
+      },
+      {
+        "intent": "TalkIntent"
+      },
+      {
+        "intent": "SuccessIntent"
+      },
+      {
+        "intent": "AMAZON.HelpIntent"
+      }
+    ]
+  }
